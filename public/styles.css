@@ -1,0 +1,127 @@
+body{
+  padding-left: 7.5%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: #82828f;
+  width: 84%;
+}
+
+a:visited{
+  color: #82828f;
+}
+
+
+table {
+  border:0px;
+  border-spacing: 0px;
+  border-collapse: inherit;
+}
+
+
+#article_list {
+  text-align: left;
+  padding: 6px;
+  background-color: #f6f6ef;
+  width:100%;
+}
+
+#header {
+  background-color: #ff6600;
+  color:black;
+  text-align: left;
+  padding:4px 7px 4px 2px;
+  width:100%;
+}
+
+#header_title{
+  position:relative;
+  font-weight: bold;
+  padding-right: 4px;
+  padding-left: 25px;
+}
+
+#footer {
+    background-color: #f6f6ef;
+    width: 100%;
+    text-align: center;
+    color:black;
+}
+
+#login{
+  float: right;
+  position: relative;
+  top: -2px;
+}
+
+#logo{
+  position:absolute;
+  top: 10px;
+  width:18px;
+  height:18px;
+  border:1px solid white;
+}
+
+#nomore{
+  color:black;
+  padding-left: 27px;
+}
+
+#bottom_links{
+  font-size: 8pt;
+}
+
+#search {
+  color: #82828f;
+}
+
+.arrow{
+  padding:0px 2px 0px 2px;
+  vertical-align: center;
+}
+
+.header_links{
+  padding:1px;
+}
+
+.header_links a{
+  text-decoration: none;
+  color:black;
+}
+
+.title {
+  margin:0px;
+  padding-top: 1px;
+  padding-bottom:1px;
+}
+
+.domain {
+  font-size: 8pt;
+  vertical-align: center;
+  text-align: left;
+
+}
+
+.post_info{
+  font-size: 7pt;
+  padding: 0px 0px 0px 27px;
+  margin:0px;
+  color:inherit;
+}
+
+.post_title{
+  color:black;
+}
+.spacing{
+  font-size: 0.4em;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+hr {
+  border-top: 2px solid #ff6600;
+  margin: 0px;
+  padding: 0px;
+}
