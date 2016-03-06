@@ -1,23 +1,23 @@
-It's important to stay connected with what's going on in the world (even if that means spending hours scouring reddit rather than accomplishing anything productive). Let's build a news aggregator so we can share some pointless articles and help others waste time effectively.
+<!-- It's important to stay connected with what's going on in the world (even if that means spending hours scouring reddit rather than accomplishing anything productive). Let's build a news aggregator so we can share some pointless articles and help others waste time effectively.
 
 ### Learning Objectives
 
 * Build an application that receives user input via HTTP POST requests.
 * Persist user data on the server so it can be used to generate pages dynamically.
 
-### Instructions
+### Instructions -->
 
-Build a web application using Sinatra that displays a list of articles that users have submitted. The application should satisfy the following user stories:
+<!-- Build a web application using Sinatra that displays a list of articles that users have submitted. The application should satisfy the following user stories:
 
 ```no-highlight
 As a slacker
 I want to be able to submit an incredibly interesting article
 So that other slackers may benefit
-```
+``` -->
 
 Acceptance Criteria:
 
-* When I visit `/articles/new` it has a form to submit a new article.
+<!-- * When I visit `/articles/new` it has a form to submit a new article. -->
 * The form accepts an article title, URL, and description.
 * When I successfully post an article, it should be saved to a CSV file.
 

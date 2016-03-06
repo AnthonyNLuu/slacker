@@ -1,5 +1,7 @@
 require "sinatra"
-
+require 'csv'
+require 'uri'
+require 'net/http'
 
 get '/' do
   @articles = File.readlines('./views/articles.csv')
@@ -7,10 +9,12 @@ get '/' do
 end
 
 post '/articles' do
-  article = params['article']
+  article = params['title']
+  url = params['article_url']
+  description = params['description']
 
   File.open('./views/articles.csv', 'a') do |file|
-    file.puts(article)
+    file.puts("\"#{article}\",\"#{url}\",\"#{description}\"")
   end
 
   redirect '/'

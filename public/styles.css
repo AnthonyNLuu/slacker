@@ -20,7 +20,7 @@ table {
 
 #article_list {
   text-align: left;
-  padding: 6px;
+  padding: 3px;
   background-color: #f6f6ef;
   width:100%;
 }
@@ -99,6 +99,32 @@ table {
   vertical-align: center;
   text-align: left;
 
+}
+
+.form{
+  width: 40%;
+  margin: 2px;
+  clear:both;
+  display:table;
+}
+
+.form p{
+  width: 40%;
+  clear:both;
+  display:table-row;
+}
+
+p label{
+  display:table-cell;
+}
+p input{
+  display:table-cell;
+}
+
+.big_box{
+  width: 40%;
+  height: 8%;
+  margin: 2px;
 }
 
 .post_info{
